@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Manrope Light";
+    src: url(/fonts/Manrope/Manrope-Light.ttf);
+}
+
+@font-face {
+  font-family: "Manrope Medium";
+  src: url(/fonts/Manrope/Manrope-Medium.ttf);
+}
+
+
+
+
+/*
+
+Primary Color: #0B132B
+
+Secondary Color:#3A506B
+
+Action Color: #6FFFE9
+
+Default font-family: Manrope Light
+
+ */
+
+
+
+
+/* Default Styles from browser */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none;
+}
+
+html{
+  font-size: 62.5%;
+  font-family:"Manrope Light" ;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.display-flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+
+  background-color: white;
+  padding: 0rem 1.5rem;
+}
